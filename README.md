@@ -140,14 +140,14 @@ features = [
 ### `getrandom` support
 
 Most crypto implementations supported by `default-resolver` will require
-[`getrandom`](getrandom).
+[`getrandom`][getrandom].
 
 If your target platform is not directly supported
 you might have to provide a custom implementation in your crate root.
-Check out their [documentation](getrandom-custom) for details.
+Check out their [documentation][getrandom-custom] for details.
 
 [getrandom]: https://crates.io/crates/getrandom
-[getrandom-custom]: https://docs.rs/getrandom/0.2.15/getrandom/macro.register_custom_getrandom.html
+[getrandom-custom]: https://docs.rs/getrandom/0.3.4/getrandom/#custom-backend
 
 ## License
 
